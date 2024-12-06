@@ -1,0 +1,110 @@
+div {
+    width: 100%;
+    height: 800px;
+}
+
+#caja1 {
+    position: relative;
+    display: inline-block;
+    width: 234px;
+    height: 80px;
+    top: 10px;
+    left: 20px;
+}
+
+.pizzayfront {
+    position: relative;
+    width: 200px;
+    height: 28px;
+    bottom: 66px;
+    left: 100px;
+    font-size: 25px;
+}
+
+#y{
+    margin-right: -5px;
+    color: white;
+}
+
+#piz {
+    margin-left: 14px;
+    margin-right: -5px;
+    color: green;
+}
+
+#front {
+    color: red;
+}
+
+.pizza{
+    position: relative;
+    display: inline-block;
+    bottom: 18px;
+}
+
+#caja2 {
+    position: relative;
+    display: flex;
+    color: rgb(220, 216, 216);
+    font-size: 17px;
+    width: 300px;
+    height: 22px;
+    justify-content: space-around;
+    left: 1100px;
+    bottom: 113px;
+}
+
+header {
+    background-color: #222222;
+    width: 100%;
+    height: 100px;
+    display: inline-block;
+}
+
+#cajaf {
+    width: 200px;
+    height: 28px;
+    position: relative;
+    left: 1140px;
+    bottom: 106px;
+}
+
+#pizza2 {
+    color: green;
+    margin-left: 14px;
+    margin-right: -5px;
+}
+
+#y2 {
+    margin-right: -5px;
+    color: white;
+}
+
+#front2 {
+    color: red;
+}
+
+#contenedor_central {
+    
+    width: 986px;
+    height: 350px;
+    top: 135px;
+    left: 19px;
+
+}
+
+#hcrp2 {
+    position: relative;
+    top: 15px;
+}
+
+.hcrp2 {
+    color: white;
+}
+
+footer {
+    background-color: #222222;
+    width: 100%;
+    height: 150px;
+    top: 520px;
+}
