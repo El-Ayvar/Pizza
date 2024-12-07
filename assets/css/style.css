@@ -1,5 +1,8 @@
+body {
+    background-color: rgb(178, 176, 176);
+}
+
 div {
-    width: 100%;
     height: 800px;
 }
 
@@ -84,18 +87,11 @@ header {
     color: red;
 }
 
-#contenedor_central {
-    
-    width: 986px;
-    height: 350px;
-    top: 135px;
-    left: 19px;
-
-}
-
 #hcrp2 {
+    width: 30px;
     position: relative;
     top: 15px;
+    left: 25px;
 }
 
 .hcrp2 {
@@ -107,4 +103,101 @@ footer {
     width: 100%;
     height: 150px;
     top: 520px;
+}
+
+.cajaC {
+    position: relative;
+    display: flex;
+    background-color: white;
+    width: 986px;
+    height: 350px;
+    left: 250px;
+    margin-bottom: 110px;
+}
+
+.cajaimg {
+    width: 490px;
+    height: 350px;
+    margin-right: 10px;
+}
+
+.cajaec2 {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    font-size: 23px;
+    width: 340px;
+    bottom: 363px;
+    left: 25px;
+}
+
+.caja2c #pdp {
+    color: red;
+    font-size: 20px;
+    font-family: "Roboto";
+}
+
+#ev {
+    color: red;
+}
+
+#cp {
+    color: white;
+}
+
+#p2 {
+    color: red;
+    font-family: "Roboto";
+}
+
+p {
+    font-family: "Roboto";
+    
+}
+
+.caja2c {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 480px;
+    position: relative;
+    height: 350px;
+}
+
+.cuadrol {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 385px;
+    height: 250px;
+}
+
+.cajalista {
+    display: flex;
+    flex-direction: column;
+    width: 173px;
+    height: 178px;
+}
+
+.cajalista #ptop {
+    display: flex;
+    justify-content: center;
+}
+
+.l {
+    margin: 6px;
+}
+
+.cajaip {
+    display: flex;
+    justify-content: end;
+    width: 199px;
+    height: 250px;
+}
+
+.cajaip img {
+    position: relative;
+    top: 55px;
+    width: 92px;
+    height: 129px;
 }
